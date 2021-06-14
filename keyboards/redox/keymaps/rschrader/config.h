@@ -24,13 +24,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define USE_I2C
 
 /* Select hand configuration */
-#define MASTER_LEFT
+#define MASTER_RIGHT
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
 #undef RGBLED_NUM
+#define RGBLED_NUM 80
 #define RGBLIGHT_ANIMATIONS
-#define RGBLED_NUM 14
-#define RGBLIGHT_HUE_STEP 8
-#define RGBLIGHT_SAT_STEP 8
-#define RGBLIGHT_VAL_STEP 8
+
+#define RGBLIGHT_DEFAULT_HUE 199
+#define RGBLIGHT_DEFAULT_SAT 250
+#define RGBLIGHT_DEFAULT_VAL 140
